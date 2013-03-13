@@ -26,9 +26,36 @@ provinces = {
 # 1. display each province, followed by its abbreviation, each on its own line
 puts "\n--------------------" # line to distinguish exercise output
 
+#provinces.each do |province|
+#	puts province.to_s
+#end
+
+provinces.each do |state, code|
+
+ 	puts provinces.invert.fetch(code)
+
+	#puts state + " " + code
+	puts "\n--------------------"
+end
+
 
 # 2. using the .each method, display the months in the second quarter of the year, in a single row
 puts "\n--------------------" # line to distinguish exercise output
+
+#months.each do |month|
+#   if month=="April" or month=="May" or month=="June"
+#      puts month
+#      puts "\n--------------------"
+#   end
+#end
+
+months.each_with_index do |month,index|
+	if index >=3 and index <=5
+		puts (index+1).to_s+" "+month
+      puts "\n--------------------"
+	end
+end
+
 
 
 # 3. display the current year, followed by the third quarter months, and the same for the next two years, as shown
