@@ -12,7 +12,7 @@
 #    exercises by making it a class variable called `@@responses`.
 #
 # 3. Inclue the module Enumerable in the class Responses (as a mixin) and define the Enumerable "each" method
-#    so that it iterates over all the possible responses in your responses instance variable
+#    so that it iterates over all the possible responses in your responses class variable
 #
 # 4. Create a new Responses instance and use your new .each method to
 #    iterate over the possible responses and print them to the screen.
