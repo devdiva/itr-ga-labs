@@ -13,6 +13,10 @@
 #
 ###############################################################################
 #
+#  NOTE: Pending rewrite of instructions, this homework is NOT REQUIRED. 
+#
+###############################################################################
+#
 # 1. Review your solution to Lab 05. Copy and Paste your solution to
 #    this file.
 #
@@ -27,22 +31,11 @@
 #      name stored in the instance variable `@name`. When we create
 #      a new Player, the initialize method should accept a parameter
 #      that will be set for this instance variable.
-#
-#   2. Also, it should have an instance variable called
-#      `@current_guess_count` which by default starts at 0.
-#
-#   3. Create a new method called `increment_guess_count` which increments
-#      `@current_guess_count` by 1.
-#
-#   4. Make sure that the instance variable `@current_guess_count` can be
-#      READ but not WRITTEN to.
-#
-#       Hint: Which `attr_` should you use at the top of your Class?
-#
-#   5. Make sure that the instance variable `@name` can be READ and
-#      WRITTEN to.
-#
-#       Hint: Which `attr_` should you use at the top of your Class?
+# 
+#   2. Make sure that the instance variable `@name` can be READ and
+#    WRITTEN to.
+#    
+#    Hint: Which `attr_` should you use at the top of your Class?
 #
 # 4. Create a new file called `secret_number.rb` with the class
 #    `SecretNumber` defined within it in the `lib` directory.
@@ -63,6 +56,23 @@
 #    4. Create a new private class method called `generate_secret_number`,
 #       set your instance variable `@secret_number` to call this method upon
 #       initialization.
+
+
+
+# TODO - rewrite instructions from here down.
+#
+#   2. Also, it should have an instance variable called
+#      `@current_guess_count` which by default starts at 0.
+#
+#   3. Create a new method called `increment_guess_count` which increments
+#      `@current_guess_count` by 1.
+#
+#   4. Make sure that the instance variable `@current_guess_count` can be
+#      READ but not WRITTEN to.
+#
+#       Hint: Which `attr_` should you use at the top of your Class?
+#
+
 #
 # 6. Create a new file called `game.rb` with the class `Game` defined
 #    within it in the `lib` directory.
